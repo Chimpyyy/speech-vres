@@ -7,6 +7,7 @@ TagManager:
   - Left Controller
   - Right Controller
   - Trash
+  - CountableObject
   layers:
   - Default
   - TransparentFX

@@ -1,10 +1,12 @@
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.UI;
 
 public class SnapToPosition : MonoBehaviour
 {
     public Transform[] snapPoints;
     public float snapDistance = 0.1f;
+    public GameObject objectiveCompletionUI;
 
     void Update()
     {
@@ -13,6 +15,7 @@ public class SnapToPosition : MonoBehaviour
             if (Vector3.Distance(transform.position, snapPoint.position) < snapDistance)
             {
                 SnapObject(snapPoint);
+                DisplayObjectiveCompletion();
                 break;
             }
         }
@@ -52,6 +55,15 @@ public class SnapToPosition : MonoBehaviour
         if (rb != null)
         {
             rb.isKinematic = true;
+        }
+    }
+
+    void DisplayObjectiveCompletion()
+    {
+        // Activate the UI element for objective completion
+        if (objectiveCompletionUI != null)
+        {
+            objectiveCompletionUI.SetActive(true);
         }
     }
 }

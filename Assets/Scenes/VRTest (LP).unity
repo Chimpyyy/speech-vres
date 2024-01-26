@@ -273,19 +273,19 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 148525389}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
-  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 352614818}
   - {fileID: 1739150106}
   m_Father: {fileID: 2031948864}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 122.4336, y: 31.1383}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!114 &148525391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -325,7 +325,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!223 &148525393
 Canvas:
   m_ObjectHideFlags: 0
@@ -335,7 +335,7 @@ Canvas:
   m_GameObject: {fileID: 148525389}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 2
+  m_RenderMode: 1
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -4724,6 +4724,7 @@ MonoBehaviour:
   snapPoints:
   - {fileID: 947114555}
   snapDistance: 0.5
+  objectiveCompletionUI: {fileID: 0}
 --- !u!114 &1311449012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7058,7 +7059,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1739150105}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -8260,9 +8261,21 @@ PrefabInstance:
       value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 4499110730577054368, guid: ff756cb5c1df22f448efd9ae3dde086a, type: 3}
+      propertyPath: objectiveCompletionUI
+      value: 
+      objectReference: {fileID: 148525389}
+    - target: {fileID: 4499110730577054368, guid: ff756cb5c1df22f448efd9ae3dde086a, type: 3}
+      propertyPath: snapPoints.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4499110730577054368, guid: ff756cb5c1df22f448efd9ae3dde086a, type: 3}
       propertyPath: snapPoints.Array.data[0]
       value: 
       objectReference: {fileID: 1867953969424257252}
+    - target: {fileID: 4499110730577054368, guid: ff756cb5c1df22f448efd9ae3dde086a, type: 3}
+      propertyPath: snapPoints.Array.data[1]
+      value: 
+      objectReference: {fileID: 947114555}
     - target: {fileID: 4855805390310504147, guid: ff756cb5c1df22f448efd9ae3dde086a, type: 3}
       propertyPath: m_MovementType
       value: 2
