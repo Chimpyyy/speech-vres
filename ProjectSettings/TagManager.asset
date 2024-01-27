@@ -8,6 +8,7 @@ TagManager:
   - Right Controller
   - Trash
   - CountableObject
+  - OBJ1
   layers:
   - Default
   - TransparentFX
