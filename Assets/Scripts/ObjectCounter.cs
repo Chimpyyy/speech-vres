@@ -1,9 +1,12 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ObjectCounter : MonoBehaviour
 {
     private int objectCount = 10;
     public TextController textController; // Reference to your TextController script
+    public Canvas currentObjective;
+    public Canvas objectiveComplete;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -22,8 +25,23 @@ public class ObjectCounter : MonoBehaviour
         {
             objectCount++;
             UpdateText();
+
+            if(objectCount == 10)
+            {
+                if(objectiveComplete != null)
+                {
+                    objectiveComplete.gameObject.SetActive(true);
+                }
+
+                if(currentObjective != null)
+                {
+                    currentObjective.gameObject.SetActive(false);
+                }
+            }
         }
     }
+
+ 
 
     private void UpdateText()
     {
