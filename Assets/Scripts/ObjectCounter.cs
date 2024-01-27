@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ObjectCounter : MonoBehaviour
 {
-    private int objectCount = 0;
+    private int objectCount = 10;
     public TextController textController; // Reference to your TextController script
 
     private void OnTriggerEnter(Collider other)
@@ -10,7 +10,7 @@ public class ObjectCounter : MonoBehaviour
         // Check if the entering object is one of the objects you want to count
         if (other.CompareTag("CountableObject"))
         {
-            objectCount++;
+            objectCount--;
             UpdateText();
         }
     }
@@ -20,7 +20,7 @@ public class ObjectCounter : MonoBehaviour
         // Check if the exiting object is one of the objects you want to count
         if (other.CompareTag("CountableObject"))
         {
-            objectCount--;
+            objectCount++;
             UpdateText();
         }
     }
