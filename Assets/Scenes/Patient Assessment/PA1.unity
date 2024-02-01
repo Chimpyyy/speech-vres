@@ -9976,6 +9976,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8980463075919619584, guid: 9f2ae18736286e44cacaaf48ee8853d4, type: 3}
+      propertyPath: delayTime
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8980463075919619584, guid: 9f2ae18736286e44cacaaf48ee8853d4, type: 3}
       propertyPath: playerCapsule
       value: 
       objectReference: {fileID: 1619997081}
@@ -10073,6 +10077,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1133718567}
     m_Modifications:
+    - target: {fileID: 2107330651083380519, guid: ccd34469096cb8d458e7d152a1c87182, type: 3}
+      propertyPath: delayTime
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2107330651083380519, guid: ccd34469096cb8d458e7d152a1c87182, type: 3}
       propertyPath: playerCapsule
       value: 

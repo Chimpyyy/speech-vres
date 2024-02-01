@@ -8,6 +8,7 @@ public class InteractiveObject : MonoBehaviour
     public InputActionProperty showButton;
     public Animator objectAnimator;
     public GameObject objectToActivate;
+    public float delayTime;
     private bool animationActivated = false;
    
 
@@ -32,7 +33,7 @@ public class InteractiveObject : MonoBehaviour
             if (!animationActivated && showButton.action.triggered)
             {
                 ActivateAnimation();
-                StartCoroutine(ActivateObjectAfterDelay(3f));
+                StartCoroutine(ActivateObjectAfterDelay(delayTime));
             }
         }
         else
