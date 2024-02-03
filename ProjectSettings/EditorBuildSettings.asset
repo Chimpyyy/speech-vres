@@ -9,11 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu/MainMenu.unity
     guid: 4783792c801800c408b6b8591ac114b4
   - enabled: 1
-    path: Assets/Scenes/VRTest (LP).unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/Landing Page/LP1.unity
+    guid: 6010a91985d7cef47bcadce8911e8c5a
+  - enabled: 1
+    path: Assets/Scenes/Patient Assessment/PA1.unity
+    guid: 91409e0f621b758438745e984d1792d6
   - enabled: 1
     path: Assets/Scenes/Patient Assessment/PA2.unity
     guid: 766005dcfec05e04883afcb198edd5c0
+  - enabled: 0
+    path: Assets/Scenes/VRTest (LP).unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 17d0f845a4302034f9995f74e941a931, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5d282cc6b1b62e246a1eb24b2776ec14, type: 2}

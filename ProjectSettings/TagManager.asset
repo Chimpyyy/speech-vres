@@ -9,6 +9,7 @@ TagManager:
   - Trash
   - CountableObject
   - OBJ1
+  - Indicator
   layers:
   - Default
   - TransparentFX

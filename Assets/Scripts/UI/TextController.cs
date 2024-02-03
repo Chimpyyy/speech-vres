@@ -4,11 +4,11 @@ using UnityEngine;
 public class TextController : MonoBehaviour
 {
     public TextMeshProUGUI textMeshPro;
-
+    public int currentOBJ;
+    public int totalOBJ;
     void Start()
     {
-        // Example: Change text on startup
-        UpdateText(10, 10);
+        UpdateText(currentOBJ, totalOBJ);
     }
 
     public void UpdateText(int current, int total)
