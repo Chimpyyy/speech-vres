@@ -10,6 +10,7 @@ TagManager:
   - CountableObject
   - OBJ1
   - Indicator
+  - Selectable
   layers:
   - Default
   - TransparentFX
