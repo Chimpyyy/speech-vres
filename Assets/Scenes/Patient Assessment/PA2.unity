@@ -2683,7 +2683,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textMeshPro: {fileID: 985247819}
   currentOBJ: 0
-  totalOBJ: 2
+  totalOBJ: 0
 --- !u!1001 &581786259
 PrefabInstance:
   m_ObjectHideFlags: 0

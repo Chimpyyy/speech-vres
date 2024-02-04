@@ -3209,7 +3209,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMeshPro: {fileID: 985247819}
-  currentNum: 10
+  currentOBJ: 0
+  totalOBJ: 0
 --- !u!1001 &581786259
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9833,7 +9834,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4591640149301970680, guid: c0f36d6caffeade45813360a0635306d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.24
+      value: -2.1
       objectReference: {fileID: 0}
     - target: {fileID: 4591640149301970680, guid: c0f36d6caffeade45813360a0635306d, type: 3}
       propertyPath: m_LocalPosition.z
