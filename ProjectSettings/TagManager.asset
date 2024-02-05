@@ -9,9 +9,14 @@ TagManager:
   - Trash
   - CountableObject
   - OBJ1
-  - Indicator
   - Selectable
+<<<<<<< Updated upstream
   - StopEngine
+=======
+  - OBJ2 Indicator
+  - OBJ2.1 Indicator
+  - OBJ2.1.1 Indicator
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
