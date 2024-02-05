@@ -11,6 +11,7 @@ TagManager:
   - OBJ1
   - Indicator
   - Selectable
+  - StopEngine
   layers:
   - Default
   - TransparentFX
