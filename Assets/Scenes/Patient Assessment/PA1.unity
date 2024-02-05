@@ -3210,7 +3210,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textMeshPro: {fileID: 985247819}
   currentOBJ: 0
-  totalOBJ: 0
+  totalOBJ: 10
 --- !u!1001 &581786259
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8283,7 +8283,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2f8d7942a10c3424b8f9af8dda094cc6, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9938,11 +9938,27 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8980463075919619584, guid: 9f2ae18736286e44cacaaf48ee8853d4, type: 3}
+      propertyPath: distanceValue
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8980463075919619584, guid: 9f2ae18736286e44cacaaf48ee8853d4, type: 3}
       propertyPath: playerCapsule
       value: 
       objectReference: {fileID: 1619997081}
     - target: {fileID: 8980463075919619584, guid: 9f2ae18736286e44cacaaf48ee8853d4, type: 3}
+      propertyPath: referenceObject
+      value: 
+      objectReference: {fileID: 1619997081}
+    - target: {fileID: 8980463075919619584, guid: 9f2ae18736286e44cacaaf48ee8853d4, type: 3}
       propertyPath: objectToActivate
+      value: 
+      objectReference: {fileID: 419657406}
+    - target: {fileID: 8980463075919619584, guid: 9f2ae18736286e44cacaaf48ee8853d4, type: 3}
+      propertyPath: objectsToActivate.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8980463075919619584, guid: 9f2ae18736286e44cacaaf48ee8853d4, type: 3}
+      propertyPath: objectsToActivate.Array.data[0]
       value: 
       objectReference: {fileID: 419657406}
     - target: {fileID: 9107019376310007232, guid: 9f2ae18736286e44cacaaf48ee8853d4, type: 3}
@@ -10040,11 +10056,27 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2107330651083380519, guid: ccd34469096cb8d458e7d152a1c87182, type: 3}
+      propertyPath: distanceValue
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2107330651083380519, guid: ccd34469096cb8d458e7d152a1c87182, type: 3}
       propertyPath: playerCapsule
       value: 
       objectReference: {fileID: 1619997081}
     - target: {fileID: 2107330651083380519, guid: ccd34469096cb8d458e7d152a1c87182, type: 3}
+      propertyPath: referenceObject
+      value: 
+      objectReference: {fileID: 1619997081}
+    - target: {fileID: 2107330651083380519, guid: ccd34469096cb8d458e7d152a1c87182, type: 3}
       propertyPath: objectToActivate
+      value: 
+      objectReference: {fileID: 1681454733}
+    - target: {fileID: 2107330651083380519, guid: ccd34469096cb8d458e7d152a1c87182, type: 3}
+      propertyPath: objectsToActivate.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2107330651083380519, guid: ccd34469096cb8d458e7d152a1c87182, type: 3}
+      propertyPath: objectsToActivate.Array.data[0]
       value: 
       objectReference: {fileID: 1681454733}
     - target: {fileID: 2809046943148324761, guid: ccd34469096cb8d458e7d152a1c87182, type: 3}

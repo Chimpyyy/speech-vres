@@ -10,6 +10,8 @@ public class ObjectiveCounter : MonoBehaviour
     public Canvas currentObjective;
     public Canvas objectiveComplete;
     public Button incrementButton;
+    public int totalObjective;
+    public string indicatorTag;
 
     private void Start()
     {
@@ -33,18 +35,18 @@ public class ObjectiveCounter : MonoBehaviour
     {
         if (textController != null)
         {
-            textController.UpdateText(objectCount, 2);
+            textController.UpdateText(objectCount, totalObjective);
         }
     }
 
     private void UpdatePreviousIndicatorCount()
     {
-        previousIndicatorCount = CountObjectsWithTag("Indicator");
+        previousIndicatorCount = CountObjectsWithTag(indicatorTag);
     }
 
     private void CheckIndicatorCountChange()
     {
-        int currentIndicatorCount = CountObjectsWithTag("Indicator");
+        int currentIndicatorCount = CountObjectsWithTag(indicatorTag);
 
         if (currentIndicatorCount < previousIndicatorCount)
         {
@@ -52,7 +54,7 @@ public class ObjectiveCounter : MonoBehaviour
             UpdateText();
         }
 
-        if (objectCount == 2)
+        if (objectCount == totalObjective)
         {
             if (objectiveComplete != null)
             {
