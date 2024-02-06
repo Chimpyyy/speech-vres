@@ -11,6 +11,8 @@ TagManager:
   - CountableObject
   - OBJ3
   - OBJ3.1
+  - OBJ4
+  - OBJ4.1
   layers:
   - Default
   - TransparentFX
