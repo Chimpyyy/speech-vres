@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class ObjectiveCounter : MonoBehaviour
 {
-    private int objectCount = 0;
+    public int objectCount;
     private int previousIndicatorCount = 0;
 
     public TextController textController;

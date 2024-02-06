@@ -12,10 +12,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Landing Page/LP1.unity
     guid: 6010a91985d7cef47bcadce8911e8c5a
   - enabled: 1
-    path: Assets/Scenes/Patient Assessment/PA1.unity
+    path: Assets/Scenes/Patient Assessment/PA1 (Secure Scene).unity
     guid: 91409e0f621b758438745e984d1792d6
   - enabled: 1
-    path: Assets/Scenes/Patient Assessment/PA2.unity
+    path: Assets/Scenes/Patient Assessment/PA2 (Inital Assessment).unity
     guid: 766005dcfec05e04883afcb198edd5c0
   - enabled: 0
     path: Assets/Scenes/VRTest (LP).unity

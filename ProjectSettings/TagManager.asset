@@ -4,19 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Left Controller
-  - Right Controller
-  - Trash
-  - CountableObject
-  - OBJ1
-  - Selectable
-<<<<<<< Updated upstream
-  - StopEngine
-=======
-  - OBJ2 Indicator
   - OBJ2.1 Indicator
-  - OBJ2.1.1 Indicator
->>>>>>> Stashed changes
+  - Right Controller
+  - Left Controller
+  - OBJ2 Indicator
+  - CountableObject
+  - OBJ3
+  - OBJ3.1
   layers:
   - Default
   - TransparentFX
@@ -26,8 +20,8 @@ TagManager:
   - UI
   - 
   - 
-  - XR Teleport
-  - Post-Processing
+  - 
+  - 
   - 
   - 
   - 
