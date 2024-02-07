@@ -6,7 +6,9 @@ public class SnapToPosition : MonoBehaviour
 {
     public Transform[] snapPoints;
     public float snapDistance = 0.1f;
-    public GameObject objectiveCompletionUI;
+    public GameObject objectToActivate;
+    public GameObject objectToDeactivate;
+    public GameObject objectWithMeshRenderer; // Public variable for the object with a mesh renderer
 
     void Update()
     {
@@ -15,6 +17,7 @@ public class SnapToPosition : MonoBehaviour
             if (Vector3.Distance(transform.position, snapPoint.position) < snapDistance)
             {
                 SnapObject(snapPoint);
+                DisableMeshRenderer();
                 DisplayObjectiveCompletion();
                 break;
             }
@@ -26,17 +29,19 @@ public class SnapToPosition : MonoBehaviour
         transform.position = snapPoint.position;
         transform.rotation = snapPoint.rotation;
 
-        DisableRenderer(snapPoint);
         DisableGrabInteractable();
         DisableRigidbody();
     }
 
-    void DisableRenderer(Transform snapPoint)
+    void DisableMeshRenderer()
     {
-        Renderer snapPointRenderer = snapPoint.GetComponent<Renderer>();
-        if (snapPointRenderer != null)
+        if (objectWithMeshRenderer != null)
         {
-            snapPointRenderer.enabled = false;
+            Renderer objectRenderer = objectWithMeshRenderer.GetComponent<Renderer>();
+            if (objectRenderer != null)
+            {
+                objectRenderer.enabled = false;
+            }
         }
     }
 
@@ -61,9 +66,14 @@ public class SnapToPosition : MonoBehaviour
     void DisplayObjectiveCompletion()
     {
         // Activate the UI element for objective completion
-        if (objectiveCompletionUI != null)
+        if (objectToActivate != null)
         {
-            objectiveCompletionUI.SetActive(true);
+            objectToActivate.SetActive(true);
+        }
+
+        if (objectToDeactivate != null)
+        {
+            objectToDeactivate.SetActive(false);
         }
     }
 }

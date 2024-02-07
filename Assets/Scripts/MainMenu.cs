@@ -17,9 +17,13 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(3);
     }
-    public void StartRapidExtrication1()
+    public void StartPatientassessment3()
     {
         SceneManager.LoadSceneAsync(4);
+    }
+    public void StartRapidExtrication1()
+    {
+        SceneManager.LoadSceneAsync(5);
     }
 
     public void QuitSimulation()
