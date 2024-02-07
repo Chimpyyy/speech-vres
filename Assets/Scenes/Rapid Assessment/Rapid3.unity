@@ -2718,7 +2718,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 231674751}
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 0.0020354474, y: 0.019407265, z: 0.025041632}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2727,7 +2727,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 1.413}
+  m_AnchoredPosition: {x: -0, y: 0.75}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &231674753
@@ -3483,7 +3483,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 1.413}
+  m_AnchoredPosition: {x: 0, y: 0.81}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &348452003
@@ -12902,16 +12902,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '1. Check for responsiveness
+  m_text: '1. Brief your team
 
-    - Go near the car. Try talking to the
-    victim. Tap their shoulder.
+    - Inform your team about the situation. Please
+    Follow the instructions to trigger their responses.
 
 
-    2. Turn off the car engine
+    2. Secure Airway, Breathing
+    and Circulation (ABC)
 
-    - Push the
-    button to turn off the engine. '
+    - Come near the incident. Follow the instructions
+    to investigate abc.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
@@ -12920,7 +12921,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -12938,8 +12939,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 14
-  m_fontSizeBase: 14
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -13549,7 +13550,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 37.1}
+  m_AnchoredPosition: {x: -0, y: 32.7}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1643098998
@@ -13575,13 +13576,13 @@ MonoBehaviour:
   m_text: 'Welcome to RAPID EXTRICATION
 
 
-    Goal 2
+    Goal 3
 
 
-    1. Check for responsiveness
+    1. Brief your team about
+    the situation
 
-    2.
-    Turn off car engine'
+    2. Secure Airway, Breathing and Circulation (ABC)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
@@ -13608,8 +13609,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 15
-  m_fontSizeBase: 15
+  m_fontSize: 14
+  m_fontSizeBase: 14
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -14478,7 +14479,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1724630635}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -14488,7 +14489,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -0, y: 0.69}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1724630637
@@ -15708,7 +15709,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1806959972}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.000000002648003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15718,7 +15719,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -0.00000007657659, y: 0.69000006}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1806959974
