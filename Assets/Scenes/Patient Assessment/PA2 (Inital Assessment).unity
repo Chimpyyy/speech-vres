@@ -4002,6 +4002,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 388861920}
+  - component: {fileID: 388861921}
   m_Layer: 0
   m_Name: UI Handler
   m_TagString: Untagged
@@ -4029,6 +4030,18 @@ Transform:
   - {fileID: 1459131425}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &388861921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 388861918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8abf63137cada74da11bcd220aaf173, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &396982041
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4059,7 +4072,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 608ff57e50986d144881bac14b0e9a7e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 122.11
+      value: 121.932
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 608ff57e50986d144881bac14b0e9a7e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4113,6 +4126,18 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 87b0641e8df407140a31732e62e53b17, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 608ff57e50986d144881bac14b0e9a7e, type: 3}
+      propertyPath: m_UpdateMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 608ff57e50986d144881bac14b0e9a7e, type: 3}
+      propertyPath: m_CullingMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 608ff57e50986d144881bac14b0e9a7e, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4846,6 +4871,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2388543c9616e69459f8acec42aff29e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objectCount: 0
   textController: {fileID: 557079473}
   currentObjective: {fileID: 557079472}
   objectiveComplete: {fileID: 319663668}
@@ -7947,6 +7973,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 17b769fc0b7d2444d997cef20f5062de, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 88ec06f4fa4ae6c4892830784ba5c6f2, type: 3}
+      propertyPath: m_UpdateMode
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7078722787440015773, guid: 88ec06f4fa4ae6c4892830784ba5c6f2, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.2989228
@@ -8765,6 +8795,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2388543c9616e69459f8acec42aff29e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objectCount: 0
   textController: {fileID: 1078754077}
   currentObjective: {fileID: 1078754080}
   objectiveComplete: {fileID: 291532515}
@@ -11886,7 +11917,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1576411785}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 388861921}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: StartPatientassessment3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1576411785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12515,7 +12558,7 @@ Transform:
   m_GameObject: {fileID: 1619997081}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 1.835, y: 1.602, z: 123.896}
+  m_LocalPosition: {x: 2.67, y: 0, z: 123.44}
   m_LocalScale: {x: 1.2000002, y: 1.2, z: 1.2000002}
   m_ConstrainProportionsScale: 0
   m_Children:
