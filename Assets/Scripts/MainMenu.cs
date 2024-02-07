@@ -26,6 +26,11 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadSceneAsync(5);
     }
 
+    public void StartPatientassessment4()
+    {
+        SceneManager.LoadSceneAsync(5);
+    }
+
     public void QuitSimulation()
     {
         Application.Quit();
