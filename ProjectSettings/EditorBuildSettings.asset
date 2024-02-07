@@ -21,8 +21,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Patient Assessment/PA3 (Head-to-Toe).unity
     guid: 04927a6934316e942abfced23348bc93
   - enabled: 1
+<<<<<<< Updated upstream
     path: Assets/Scenes/Rapid Assessment/Rapid1.unity
     guid: 544ca7cbdb963b846ba072eaca7e5d86
+=======
+    path: Assets/Scenes/Patient Assessment/PA4 (Head-to-Toe).unity
+    guid: 4f5518f2c6480cc499c8559fcdc0482f
+>>>>>>> Stashed changes
   - enabled: 0
     path: Assets/Scenes/VRTest (LP).unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
