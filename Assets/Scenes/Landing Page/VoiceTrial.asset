@@ -20,79 +20,69 @@ MonoBehaviour:
     isPrivate: 1
     createdAt: 2024-02-06T20:41:19-0800
     trainingStatus: 1
-    lastTrainDuration: 52
-    lastTrainedAt: 2024-02-07T02:11:46-0800
-    nextTrainAt: 2024-02-07T02:10:54-0800
+    lastTrainDuration: 63
+    lastTrainedAt: 2024-02-07T03:06:15-0800
+    nextTrainAt: 2024-02-07T03:05:12-0800
     intents:
-    - id: 411594331267049
-      name: Movement
+    - id: 267614276358206
+      name: player_movement
       entities:
       - name: Movement:Movement
-        id: 1477296013000351
+        id: 1025554931876119
+      - name: Position:Position
+        id: 916300040047708
     entities:
     - name: Movement
-      id: 1061740278465106
+      id: 916537406738498
       lookups:
       - free-text
       - keywords
       roles:
       - name: Movement
-        id: 1477296013000351
+        id: 1025554931876119
       keywords:
-      - keyword: Follow
-        synonyms:
-        - follow
       - keyword: Go
         synonyms:
         - go
-      - keyword: Movement
-        synonyms: []
+      - keyword: Move
+        synonyms:
+        - move
+      - keyword: Walk
+        synonyms:
+        - walk
+    - name: Position
+      id: 1423376075272662
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: Position
+        id: 916300040047708
+      keywords:
       - keyword: back
         synonyms:
         - back
-      - keyword: backward
-        synonyms:
-        - backward
+        - south
       - keyword: down
         synonyms:
         - down
-      - keyword: downstairs
-        synonyms:
-        - downstairs
-      - keyword: downward
-        synonyms:
-        - downward
       - keyword: forward
         synonyms:
+        - advance
         - forward
-        - up
-      - keyword: front
+        - north
+        - proceed
+      - keyword: left
         synonyms:
-        - front
-      - keyword: me
+        - left
+        - west
+      - keyword: right
         synonyms:
-        - me
-      - keyword: the
-        synonyms:
-        - the
-      - keyword: to
-        synonyms:
-        - to
-      - keyword: top
-        synonyms:
-        - top
-      - keyword: under
-        synonyms:
-        - under
+        - east
+        - right
       - keyword: up
         synonyms:
         - up
-      - keyword: upstairs
-        synonyms:
-        - upstairs
-      - keyword: upward
-        synonyms:
-        - upward
     traits: []
     versionTags: []
     voices:
