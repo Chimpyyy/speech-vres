@@ -15,6 +15,9 @@ TagManager:
   - OBJ4.1
   - OBJ5
   - OBJ5.1
+  - OBJ1
+  - OBJ6
+  - OBJ6.1
   layers:
   - Default
   - TransparentFX

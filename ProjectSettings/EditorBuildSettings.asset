@@ -18,21 +18,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Patient Assessment/PA2 (Inital Assessment).unity
     guid: 766005dcfec05e04883afcb198edd5c0
   - enabled: 1
-    path: Assets/Scenes/Patient Assessment/PA3 (Head-to-Toe).unity
+    path: Assets/Scenes/Patient Assessment/PA3 AND PA4 (Head-to-Toe).unity
     guid: 04927a6934316e942abfced23348bc93
   - enabled: 1
-<<<<<<< Updated upstream
-    path: Assets/Scenes/Rapid Assessment/Rapid1.unity
-    guid: 544ca7cbdb963b846ba072eaca7e5d86
-=======
-    path: Assets/Scenes/Patient Assessment/PA4 (Head-to-Toe).unity
+    path: Assets/Scenes/Patient Assessment/PA5 (Head-to-Toe).unity
     guid: 4f5518f2c6480cc499c8559fcdc0482f
->>>>>>> Stashed changes
-  - enabled: 0
-    path: Assets/Scenes/VRTest (LP).unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Patient Assessment/PA6 (Head-to-Toe).unity
+    guid: bc8900f1321b91b45afb5354e7655f68
   m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 17d0f845a4302034f9995f74e941a931, type: 2}
-    com.unity.addressableassets: {fileID: 11400000, guid: 30b52a84942490c458a6a0c580943c82, type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5d282cc6b1b62e246a1eb24b2776ec14, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: df52eb3c593d15f4a9d5e9effa1f0d91, type: 2}
