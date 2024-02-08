@@ -1,0 +1,78 @@
+{
+    "name": "VR Controller",
+    "maps": [
+        {
+            "name": "Voice Activation",
+            "id": "6f304598-2cdd-4f0f-9766-7fd9a05227c2",
+            "actions": [
+                {
+                    "name": "TriggerPressed",
+                    "type": "Button",
+                    "id": "3f4657dd-7e60-4b9a-9e2c-387b913dad52",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9ab7c5b6-b242-4a42-bd25-b2a9feeda6dd",
+                    "path": "<XRController>{LeftHand}/triggerButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b5003248-0960-40ec-99f3-f18f5c65c198",
+                    "path": "<XRController>{RightHand}/triggerButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ac11a3bf-2cde-47ee-b6a4-0a04d32d7bd4",
+                    "path": "<XRSimulatedController>{RightHand}/triggerButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "211ffc5f-890d-480c-8106-590215d1f96f",
+                    "path": "<OculusTouchController>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c75db055-0a6a-4b2b-89f8-0d75fa1ffcae",
+                    "path": "*/{TriggerButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
