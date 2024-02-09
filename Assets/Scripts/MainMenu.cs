@@ -46,7 +46,22 @@ public class MainMenu : MonoBehaviour
     //{FOR RAPID EXTRICATION --START--}
     public void StartRapidExtrication1()
     {
-        SceneManager.LoadSceneAsync(5);
+        SceneManager.LoadSceneAsync(7);
+    }
+
+    public void StartRapidExtrication2()
+    {
+        SceneManager.LoadSceneAsync(8);
+    }
+
+    public void StartRapidExtrication3()
+    {
+        SceneManager.LoadSceneAsync(9);
+    }
+
+    public void StartRapidExtrication4()
+    {
+        SceneManager.LoadSceneAsync(10);
     }
     //{FOR RAPID EXTRICATION --END--}
 }

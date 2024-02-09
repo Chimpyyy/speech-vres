@@ -1,0 +1,56 @@
+{
+    "name": "PushToTalk",
+    "maps": [
+        {
+            "name": "VoiceActivation",
+            "id": "022e365f-757f-420f-b311-6b7aa35bbbe4",
+            "actions": [
+                {
+                    "name": "ButtonA",
+                    "type": "Button",
+                    "id": "3d8d32db-87c1-4c99-8938-579dc4186487",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "20067e52-2e00-4c53-b835-7574f60e2072",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ButtonA",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a045d4cf-5454-4a69-8e97-05e7ee5316f4",
+                    "path": "<OculusTouchController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ButtonA",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d5355640-8867-4814-89bc-aa59b97fe35c",
+                    "path": "<XRSimulatedController>/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ButtonA",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

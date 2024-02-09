@@ -1,0 +1,453 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5a46bda3295124c99b0e6537ac7252, type: 3}
+  m_Name: VResponder
+  m_EditorClassIdentifier: 
+  _clientAccessToken: G3NTQNCKTBNCYDOPKFT2BQ57K5IJPDKQ
+  _appInfo:
+    name: vresponderr
+    id: 751957606540888
+    lang: en
+    isPrivate: 0
+    createdAt: 2024-02-07T03:49:43-0800
+    trainingStatus: 1
+    lastTrainDuration: 443
+    lastTrainedAt: 2024-02-08T21:54:52-0800
+    nextTrainAt: 2024-02-08T21:47:29-0800
+    intents:
+    - id: 392222150165413
+      name: get_item
+      entities:
+      - name: Get:Get
+        id: 1762953380892195
+      - name: Item:Item
+        id: 1898322677232566
+    - id: 1131910827700363
+      name: return_item
+      entities:
+      - name: Item:Item
+        id: 1898322677232566
+      - name: return:return
+        id: 929473198585894
+    - id: 398766852832489
+      name: say_next
+      entities:
+      - name: next:next
+        id: 385014204225209
+    - id: 1151070259392043
+      name: say_no
+      entities:
+      - name: no:no
+        id: 3794334510786887
+    - id: 724384882801470
+      name: say_yes
+      entities:
+      - name: yes:yes
+        id: 1149958372695500
+    entities:
+    - name: Get
+      id: 1073018057308087
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: Get
+        id: 1762953380892195
+      keywords:
+      - keyword: get
+        synonyms:
+        - acquire
+        - come
+        - enable
+        - get
+        - obtain
+        - summon
+    - name: Item
+      id: 887223993086461
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: Item
+        id: 1898322677232566
+      keywords:
+      - keyword: c-collar
+        synonyms:
+        - c-collar
+        - cervical collar
+        - collar
+        - neck collar
+      - keyword: collar
+        synonyms:
+        - collar
+      - keyword: flashlight
+        synonyms:
+        - flash
+        - flashlight
+        - lamp
+        - light
+      - keyword: light
+        synonyms:
+        - light
+    - name: next
+      id: 417399274184394
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: next
+        id: 385014204225209
+      keywords:
+      - keyword: next
+        synonyms:
+        - continue
+        - keep going
+        - next
+        - proceed
+        - resume
+    - name: no
+      id: 856323299583499
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: no
+        id: 3794334510786887
+      keywords:
+      - keyword: no
+        synonyms:
+        - disagree
+        - never
+        - no
+        - nooo
+        - noooo
+        - nooooo
+    - name: return
+      id: 913487346914770
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: return
+        id: 929473198585894
+      keywords:
+      - keyword: return
+        synonyms:
+        - disable
+        - remove
+        - return
+        - store
+    - name: yes
+      id: 827767519155810
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: yes
+        id: 1149958372695500
+      keywords:
+      - keyword: yes
+        synonyms:
+        - agree
+        - yeees
+        - yees
+        - yes
+        - yesss
+    traits: []
+    versionTags: []
+    voices:
+    - name: wit$Rebecca
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: wit$Charlie
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - fast
+      - projected
+    - name: wit$Cooper
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: wit$Vampire
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: wit$Prospector
+      locale: en_US
+      gender: male
+      styles:
+      - default
+    - name: wit$Cody
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: wit$Remi
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: wit$Cam
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: wit$Connor
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: wit$Railey
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: wit$Cael
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: wit$Carl
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: wit$Rubie
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: wit$Overconfident
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: wit$Disaffected
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: wit$Hollywood
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: wit$Trendy
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: wit$Cartoon Baby
+      locale: en_US
+      gender: nonbinary
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: wit$Surfer
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: wit$Southern Accent
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: wit$Kenyan Accent
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: wit$Cartoon Kid
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: wit$Cartoon Villain
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: wit$Rosie
+      locale: en_CA
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: wit$Colin
+      locale: en_CA
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: wit$Pirate
+      locale: en_GB
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: wit$British Butler
+      locale: en_GB
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: wit$Whimsical
+      locale: en_GB
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: wit$Wizard
+      locale: en_GB
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: wit$Cockney Accent
+      locale: en_GB
+      gender: nonbinary
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+  _configData: []
+  _configurationId: 0c536a0a-c793-43ef-a33d-058b0449edf2
+  timeoutMS: 10000
+  endpointConfiguration:
+    _uriScheme: 
+    _authority: 
+    _port: 0
+    _witApiVersion: 
+    _message: 
+    _speech: 
+    _dictation: 
+    _synthesize: 
+    _event: 
+    _converse: 
+  isDemoOnly: 0
+  useConduit: 1
+  _manifestLocalPath: ConduitManifest-283fd593-1839-4aba-afa8-ebbfede9a232.json
+  excludedAssemblies:
+  - Oculus.Voice.Demo, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Meta.WitAi.Samples, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  relaxedResolution: 0

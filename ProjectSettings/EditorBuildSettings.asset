@@ -26,5 +26,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Patient Assessment/PA6 (Head-to-Toe).unity
     guid: bc8900f1321b91b45afb5354e7655f68
+  - enabled: 1
+    path: Assets/Scenes/Rapid Assessment/Rapid1.unity
+    guid: 544ca7cbdb963b846ba072eaca7e5d86
+  - enabled: 1
+    path: Assets/Scenes/Rapid Assessment/Rapid2.unity
+    guid: 4f85e57c18ea67445bac28220ec6d2bd
+  - enabled: 1
+    path: Assets/Scenes/Rapid Assessment/Rapid3.unity
+    guid: 12879d158f4476345b430dc0df0010b6
+  - enabled: 1
+    path: Assets/Scenes/Rapid Assessment/Rapid4.unity
+    guid: b0d16133b3841904d995faa6aa4a8100
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 17d0f845a4302034f9995f74e941a931, type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: 3323b6a15e1650b468df90960ba759e6, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: df52eb3c593d15f4a9d5e9effa1f0d91, type: 2}

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 namespace Oculus.VoiceSDK.UX
 {
-    public class VoiceActivationButton : MonoBehaviour
+    public class ActivationVoiceButton : MonoBehaviour
     {
         // The button to be observed
         private Button _button;
@@ -60,7 +60,7 @@ namespace Oculus.VoiceSDK.UX
         }
 
         // On click, activate if not active & deactivate if active
-        private void OnClick()
+        public void OnClick()
         {
             if (!_isActive)
             {
